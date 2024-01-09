@@ -1,0 +1,113 @@
+.User {
+    
+    background-color: rgb(0,0,83);
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border:1px solid black;
+
+  }
+
+  body {
+    background-color: rgb(0,0,83);
+  }
+
+  .userdetails {
+    color: #40e0d0;
+    align-items: right;
+    padding: 20px;
+    height:20vh;
+    margin-left:auto;
+    width: 300px; /* Adjust the width as needed */
+    border: 1px blue;
+    font-family: "Poppins";
+
+  }
+  
+.name {
+    font-size: 2.5vw;
+    font-weight:bold;
+
+}
+
+.email {
+    font-size: 1.5vw;
+    font-weight:bold;
+
+}
+.userpfp { 
+    width:300px;
+}
+body {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.inputField {
+    font-size:2.5vw;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.qrCodee {
+    align-items: center;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins";
+    color: #40e0d0;
+}
+.QR {
+    position:relative;
+    width:320px;
+    margin: 0px 0px 0px 0px;
+}
+
+.enter {
+    position:absolute;
+    margin-bottom: 50px;
+    width: 300px;
+    margin-top: -60px;
+    padding-top:20px;
+}
+
+.generateQR {
+    position:absolute;
+    background-color: yellow;
+    color: black;
+    margin-top:80px;
+    margin-left: -390px;
+    font-family: "Poppins";
+    font-size: 20px;
+    width:20vw;
+    height: 5vh;
+    border:10px white;
+
+    transition: background-color 0.3s ease;
+
+}
+
+
+.generateQR:hover {
+  
+    background-color:#F8F8FF;
+}
+.inputBox {
+    height:4vh;
+    width:25vw;
+}
+
+.saveImg {
+    position:absolute;
+    margin: 300px -100px 50px -250px;
+    background-color: yellow;
+    font-family: "Poppins";
+    font-size:25px;
+    width: 15vw;
+    height:5vh;
+}
+.saveImg:hover {
+    background-color:#F8F8FF;
+}
