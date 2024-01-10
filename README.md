@@ -1,5 +1,10 @@
 <h2>Project Setup and Configuration</h2>
-
+<h3> Step 0: Clone repository </h3>
+    
+```bash
+git clone https://github.com/AmbiakaTT/oauth2demo
+```
+    
 <h3>Step 1: Register Google OAuth2</h3>
 <p>Follow the instructions at <a href="https://developers.google.com/identity/protocols/oauth2" target="_blank">Google Identity Platform OAuth 2.0</a> to register your application and obtain the client registration ID and client secret.</p>
 
@@ -8,7 +13,7 @@ Create Credentials
 <p> + Add URI for Authorized redirect URIs: http://localhost:8080/login/oauth2/code/google </p>
 
 
-<h3>Open SecurityConfig.java</h3>
+<h3>Step 2: Open SecurityConfig.java</h3>
 <p>In your project, open <code>SecurityConfig.java</code> and enter the obtained client registration ID and client secret in the <code>ClientRegistration</code> section to enable Google OAuth2 authentication.</p>
 
 ```java
@@ -34,15 +39,16 @@ Create Credentials
 Remember to replace , `"your-client-id"`, and `"your-client-secret"` with the values obtained during the Google OAuth2 registration process. 
 
 
-Development Environment
-Run the development server using the following command:
+### Step 3: Development Environment
+##### Run the development server using the following command:
+
 ```bash
 npm install
-npm start 
+npm start
 ```
 This command install the necessar packages and start the development environment for your project.
 
-Maven Build
+<h3> Step 4 Maven Build </h3>
 To build your project using Maven, use the following command:
 
 ```bash
