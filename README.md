@@ -1,3 +1,4 @@
+<h1> OAuth2 login Demo with Spring Boot, ReactJS, Google  </h1>
 <h2>Project Setup and Configuration</h2>
 <h3> Step 0: Clone repository </h3>
     
@@ -46,7 +47,7 @@ Remember to replace , `"your-client-id"`, and `"your-client-secret"` with the va
 npm install
 npm start
 ```
-This command install the necessar packages and start the development environment for your project.
+This command install the necessary packages and start the development environment for your project.
 
 <h3> Step 4 Maven Build </h3>
 To build your project using Maven, use the following command:
