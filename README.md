@@ -15,7 +15,7 @@ Create Credentials
 
 
 <h3>Step 2: Open SecurityConfig.java</h3>
-<p>In your project, open <code>SecurityConfig.java</code> and enter the obtained client registration ID and client secret in the <code>ClientRegistration</code> section to enable Google OAuth2 authentication.</p>
+<p>In the backend project folder, open <code>testOauth\testOauth\src\main\java\com\example\testOauth\security\OAuth2ClientSecurityConfig.java</code> and enter the obtained client registration ID and client secret in the <code>ClientRegistration</code> section to enable Google OAuth2 authentication.</p>
 
 ```java
     @Bean
@@ -44,6 +44,7 @@ Remember to replace , `"your-client-id"`, and `"your-client-secret"` with the va
 ##### Run the development server using the following command:
 
 ```bash
+cd guessdrama
 npm install
 npm start
 ```
@@ -55,4 +56,5 @@ To build your project using Maven, use the following command:
 ```bash
 mvn clean install
 ```
-This command will download dependencies, compile the code, and package your application.
+<p> This command will download dependencies, compile the code, and package your application. </p>
+<p> Note: Alternatively, you can install Jetbrains IntelliJ so that it loads maven dependencies for you </p>
