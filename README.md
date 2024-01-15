@@ -58,3 +58,7 @@ mvn clean install
 ```
 <p> This command will download dependencies, compile the code, and package your application. </p>
 <p> Note: Alternatively, you can install Jetbrains IntelliJ so that it loads maven dependencies for you </p>
+<h3> Step 5 Run Project </h3>
+<p> Head towards file com/example/testOauth/TestOauthApplication.java <p>
+<p> Click on Start Application </p>
+
